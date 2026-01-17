@@ -35,8 +35,8 @@ CHECK_INTERVAL = int(os.getenv('CHECK_INTERVAL', '30'))  # فحص الغرفة �
 SCREENSHOT_INTERVAL = int(os.getenv('SCREENSHOT_INTERVAL', '30'))  # تصوير كل 30 ثانية
 
 # إعدادات Telegram
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
-TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', '')
+TELEGRAM_BOT_TOKEN = os.getenv('8444009535:AAFAnw_4_UJbTohiVv5F2uRLzKuhD_7csVg', '')
+TELEGRAM_CHAT_ID = os.getenv('5562144078', '')
 
 # متغيرات التتبع
 room_is_active = False
