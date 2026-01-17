@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: gartic-monitor
+    env: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: TARGET_ROOM
+        value: 49r1Q8
+      - key: CHECK_INTERVAL
+        value: 30
+      - key: SCREENSHOT_INTERVAL
+        value: 30 
