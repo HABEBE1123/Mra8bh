@@ -1,0 +1,37 @@
+TARGET_ROOM=49r1Q8
+CHECK_INTERVAL=30
+SCREENSHOT_INTERVAL=30
+TELEGRAM_BOT_TOKEN=8444009535:AAFAnw_4_UJbTohiVv5F2uRLzKuhD_7csVg 
+TELEGRAM_CHAT_ID=5562144078
+```
+
+---
+
+## 🚀 خطوات الرفع على Railway:
+
+### **الطريقة 1: من GitHub** (الأفضل ⭐)
+
+1. **أنشئ Repository في GitHub:**
+   - اذهب إلى https://github.com/new
+   - سمّه: `gartic-monitor`
+   - ارفع الملفات الأربعة
+
+2. **اذهب إلى Railway:**
+   - https://railway.app
+   - سجل دخول بـ GitHub
+
+3. **أنشئ Project جديد:**
+   - اضغط **New Project**
+   - اختر **Deploy from GitHub repo**
+   - اختر الـ repository: `gartic-monitor`
+
+4. **أضف Environment Variables:**
+   - في Railway، اضغط على المشروع
+   - اذهب إلى **Variables**
+   - أضف:
+```
+     TARGET_ROOM = 49r1Q8
+     CHECK_INTERVAL = 30
+     SCREENSHOT_INTERVAL = 30
+     TELEGRAM_BOT_TOKEN = (توكن البوت)
+     TELEGRAM_CHAT_ID = (معرف المحادثة) 
